@@ -4,9 +4,9 @@
  <head>
   <title>Facebook System Post</title>
    <meta charset="UTF-8">
-   <link rel="stylesheet" href="cmaterialize.min.css">
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="materialize.min.css">
+     <link rel="stylesheet" href="style.css">
  </head>
  <body class="light-blue" onload="post()" >
 
@@ -68,7 +68,7 @@
 
  }
  else{
-     header("Refresh:5,url=login.html");
+     header("Refresh:5,url=log.html");
 
      echo "So You Can't Come This Page Directly You Are Redirect To LogInl";
  }
